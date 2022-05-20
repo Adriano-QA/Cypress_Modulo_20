@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Clonar o repositorio') {
+            steps {
+                git branch: 'master', url: 'https://github.com/Aluizi-hub/Cypress_Modulo_20'
+            }
+        }
+        stage('Instalar dependencias') {
+            steps {
+                bat 'npm install'
+            }
+        }
+        stage('Executar testes') {
+            steps {
+                bat 'npm run cy:run'
+            }
+        }
+    }
+}
