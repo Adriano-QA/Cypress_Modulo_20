@@ -1,9 +1,5 @@
-# Testes Pedido - Ebac Shop
-### Teste UI Automatizado para o TCC do curso de Qualidade de software da EBAC 
-
-Site E-commerce - Ebac shop: http://lojaebac.ebaconline.art.br/
-
-## Clonando e executando em sua máquina
+### Teste UI Automatizado modulo 20
+Ebac shop: http://lojaebac.ebaconline.art.br/
 
 ### Pré-requisito:
 
@@ -12,15 +8,6 @@ Site E-commerce - Ebac shop: http://lojaebac.ebaconline.art.br/
 -Visual Studio Code ou qualquer editor de texto - você encontra em: https://code.visualstudio.com/download
 
 -Git: você encontra em: https://git-scm.com/downloads
-
-
-Via terminal, rode os seguintes comandos:
-```  
-git clone https://github.com/FelipeRBDantas/TCC-EBAC.git
-```
-```
-cd teste-ui
-```
 
 #### Para instalar as dependencias:
 ```
@@ -35,5 +22,4 @@ npx cypress run
 #### Para executar via Dashboard:
 ```
 npx cypress open 
-```
-Após abrir o dasboard, clique na opção "Running integration tests" para rodar todos os testes.
+
