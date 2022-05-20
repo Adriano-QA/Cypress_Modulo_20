@@ -1,0 +1,21 @@
+{
+  "name": "teste-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "npx cypress open --browser chrome",
+    "cy:run": "npx cypress run",
+    "cy:report": "cypress run --record --key 694144a0-f689-4656-9592-0421565b35c4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.2.0"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}
